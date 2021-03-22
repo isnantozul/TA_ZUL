@@ -1,0 +1,241 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* my navbar */
+.my-navbar {
+  height: 60px;
+  border-bottom: 1px solid #ebebeb;
+}
+
+.my-navbar-content {
+  padding: 10px 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.my-navbar-content .my-brand {
+  display: flex;
+  align-items: center;
+}
+
+.my-brand h4 {
+  font-family: "Viga", sans-serif;
+  letter-spacing: 1px;
+  font-weight: 200;
+  margin-left: 10px;
+}
+
+.my-navbar-content ul li {
+  display: inline-block;
+  margin-right: 15px;
+  list-style: none;
+}
+
+.my-navbar-content ul li a {
+  text-decoration: none;
+  color: black;
+  font-family: "Viga", sans-serif;
+  font-size: 0.9em;
+  font-weight: 200;
+}
+
+/* My Content */
+
+.my-content {
+  margin-top: 120px;
+  padding: 0 120px;
+  display: flex;
+  align-items: center;
+}
+
+.my-content img {
+  width: 350px;
+  height: 350px;
+}
+
+.my-divider {
+  margin-left: 120px;
+  height: 390px;
+  border-left: 1px solid #ebebeb;
+}
+
+.my-content-text {
+  margin: 0 180px;
+  padding-left: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 390px;
+}
+
+.text-login {
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 2px;
+  font-family: "Inter", sans-serif;
+  text-transform: uppercase;
+  color: #6772a0;
+}
+
+.text-title {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  color: #000000;
+}
+
+.text-desc {
+  width: 635px;
+  height: 108px;
+}
+
+.text-desc p {
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  color: #999999;
+  line-height: 36px;
+  font-weight: normal;
+  font-style: normal;
+}
+
+.my-login-button {
+  display: block;
+  text-decoration: none;
+  color: white;
+  width: 188px;
+  height: 56px;
+  background-color: #3546ab;
+  text-align: center;
+  line-height: 56px;
+  text-transform: uppercase;
+  font-family: "Inter", sans-serif;
+  letter-spacing: 2px;
+}
+
+.my-login-button.text-center {
+  display: block;
+  margin: 0 auto;
+  text-decoration: none;
+  color: white;
+  width: 188px;
+  height: 56px;
+  background-color: #3546ab;
+  text-align: center;
+  line-height: 56px;
+  text-transform: uppercase;
+  font-family: "Inter", sans-serif;
+  letter-spacing: 2px;
+}
+
+.my-login-button:hover {
+  background-color: #25327a;
+}
+
+.my-img-login {
+  width: 475px;
+  height: 475px;
+  position: relative;
+}
+
+.my-img-login img {
+  width: 475px;
+  height: 475px;
+}
+
+.my-frame-image {
+  width: 410px !important;
+  height: 410px !important;
+  position: absolute;
+  left: 32px;
+  top: 35px;
+}
+
+.my-time-info {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.my-time-info p {
+  font-family: "Inter", sans-serif;
+  font-size: 64px;
+  font-weight: 800;
+  line-height: 96px;
+  color: #333333;
+}
+
+.my-content-info {
+  margin: 0 auto;
+  width: 571px;
+  height: 475px;
+}
+
+.my-header-content-info-success {
+  height: 36px;
+  background-color: #27ae60;
+  border-radius: 4px 4px 0px 0px;
+  color: white;
+  text-align: center;
+  line-height: 36px;
+}
+
+.my-header-content-info-success p {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.my-header-content-info-text {
+  padding: 30px;
+  height: 430px;
+  border-left: 1px solid #e5e5e5;
+  border-right: 1px solid #e5e5e5;
+  border-bottom: 1px solid #e5e5e5;
+  box-sizing: border-box;
+}
+
+.info-karyawan {
+  margin-top: 20px;
+  width: 100%;
+}
+
+.info-karyawan-sub p:nth-child(1) {
+  width: 200px;
+}
+
+.info-karyawan-sub p:nth-child(2) {
+  width: 30px;
+}
+
+.info-karyawan-sub p:nth-child(3) {
+  width: 270px;
+}
+
+.info-karyawan-sub p {
+  display: inline-block;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  color: #999999;
+  line-height: 50px;
+}
+
+/* footer */
+
+.my-footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 60px;
+  border-top: 1px solid #ebebeb;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.my-footer p {
+  font-family: "Montserrat", sans-serif;
+  margin: 0 auto;
+  font-size: 0.9em;
+}
